@@ -1,0 +1,21 @@
+$main-color:#FF6060;
+$secondary-color: #F6F6F6;
+
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/footer";
+@import "partials/notFound";
+@import "partials/banner";
+@import "partials/gallery";
+@import "partials/collapse";
+@import "partials/ficheLogement";
+@import "partials/carrousel";
+@import "partials/tag";
+@import "partials/rating";
+@import "partials/responsiveMobile";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}

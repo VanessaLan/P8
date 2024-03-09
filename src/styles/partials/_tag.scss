@@ -1,0 +1,13 @@
+.logement_tag {
+    margin: 15px 0px;
+    display: flex;
+    gap: 10px;
+
+    p {
+        text-align: center;
+        background-color: $main-color;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,48 @@
+.collapse_content {
+    width: 70%;
+    margin: 25px auto 25px auto;
+    position: relative;
+
+    .collapse_title {
+        background-color: $main-color;
+        color: white;
+        padding: 10px 20px 10px 15px;
+        font-size: 24px;
+        border-radius: 5px;
+    }
+
+    .collapse_div_show {
+        height: 100%;
+        padding: 15px;
+        transition: all 0.3s;
+    }
+
+    .collapse_div_hidden {
+        height: 0px;
+        padding: 0px 15px;
+        overflow: hidden;
+        transition: padding 0.3s;
+    }
+
+    .collapse_arrow_up {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        cursor: pointer;
+        transform: rotate(0deg);
+        transition: 0.3s;
+    }
+
+    .collapse_arrow_down {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        transform: rotate(-180deg);
+        transition: 0.3s;
+    }
+}

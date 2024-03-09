@@ -1,0 +1,38 @@
+.gallery_home {
+    background-color: $secondary-color;
+    border-radius: 25px;
+    width: 85%;
+    padding: 50px 0px;
+    margin: 50px auto;
+
+    .card_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .card_home {
+        border-radius: 25px;
+        height: 340px;
+        width: 340px;
+        position: relative;
+
+        h2 {
+            font-weight: 700;
+            font-size: 18px;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            color: white;
+            max-width: 50%;
+        }
+
+        img {
+            border-radius: 25px;
+            height: 340px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
