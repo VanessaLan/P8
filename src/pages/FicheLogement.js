@@ -54,10 +54,3 @@ const FicheLogement = () => {
 };
 
 export default FicheLogement;
-
-
-  // const equipments = logement.equipments.map((equipments, index) => (
-  //   <ul key={index}>
-  //     <li>{equipments}</li>
-  //   </ul>
-  // ));
